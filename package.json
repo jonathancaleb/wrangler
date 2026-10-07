@@ -1,5 +1,5 @@
 {
-  "name": "jakisa-callbacks",
+  "name": "anortir-callbacks",
   "private": true,
   "scripts": {
     "dev": "wrangler dev",
@@ -7,8 +7,8 @@
     "logs": "wrangler tail",
     "types": "wrangler types",
     "typecheck": "tsc --noEmit",
-    "db:migrate:local": "wrangler d1 migrations apply jakisa-callbacks --local",
-    "db:migrate:remote": "wrangler d1 migrations apply jakisa-callbacks --remote"
+    "db:migrate:local": "wrangler d1 migrations apply anortir-callbacks --local",
+    "db:migrate:remote": "wrangler d1 migrations apply anortir-callbacks --remote"
   },
   "devDependencies": {
     "typescript": "^5",
