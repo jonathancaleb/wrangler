@@ -2,6 +2,9 @@
   "name": "anortir-callbacks",
   "main": "src/index.ts",
   "compatibility_date": "2026-10-01",
+  // Public URL: https://<name>.anortir.workers.dev
+  "workers_dev": true,
+  "preview_urls": false,
   // Keeps request logs viewable in the dashboard
   "observability": { "enabled": true },
   "d1_databases": [

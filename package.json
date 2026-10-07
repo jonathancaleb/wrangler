@@ -13,5 +13,9 @@
   "devDependencies": {
     "typescript": "^5",
     "wrangler": "^4"
+  },
+  "allowScripts": {
+    "esbuild": true,
+    "workerd": true
   }
 }
