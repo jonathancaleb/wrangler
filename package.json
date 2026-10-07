@@ -1,0 +1,17 @@
+{
+  "name": "jakisa-callbacks",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "logs": "wrangler tail",
+    "types": "wrangler types",
+    "typecheck": "tsc --noEmit",
+    "db:migrate:local": "wrangler d1 migrations apply jakisa-callbacks --local",
+    "db:migrate:remote": "wrangler d1 migrations apply jakisa-callbacks --remote"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "wrangler": "^4"
+  }
+}

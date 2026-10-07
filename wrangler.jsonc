@@ -1,0 +1,15 @@
+{
+  "name": "jakisa-callbacks",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-01",
+  // Keeps request logs viewable in the dashboard
+  "observability": { "enabled": true },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "jakisa-callbacks",
+      // Replace with the id printed by `npx wrangler d1 create jakisa-callbacks`
+      "database_id": "00000000-0000-0000-0000-000000000000"
+    }
+  ]
+}
