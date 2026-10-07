@@ -8,8 +8,7 @@
     {
       "binding": "DB",
       "database_name": "anortir-callbacks",
-      // Replace with the id printed by `npx wrangler d1 create anortir-callbacks`
-      "database_id": "00000000-0000-0000-0000-000000000000"
+      "database_id": "9e01f7d4-795e-40c0-b219-619ab1b3665d"
     }
   ]
 }
